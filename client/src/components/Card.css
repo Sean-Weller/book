@@ -1,0 +1,106 @@
+.Card {
+    background-color: #222;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px; /* Add margin to create spacing between cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%; /* Reduce the width to make it smaller */
+    max-width: 400px; /* Set a maximum width for the card */
+}
+
+.card-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.moreButton {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.card-body {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.created_at {
+    font-size: 14px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+.created_at:hover {
+    text-decoration: underline;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.action-button {
+    background-color: #373737;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.author {
+    color:white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.description {
+    color:white;  
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.betButton {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    color:white;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+.betButton:hover {
+    border-color: #646cff;
+}

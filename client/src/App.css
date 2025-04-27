@@ -1,0 +1,138 @@
+.App {
+    font-family: Avenir, "Century Gothic", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: calc(15px + 2vmin);
+    color: white;
+    background-color: #2e2e2e; /* Match the background to dark grey */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Ensure the app takes up the full viewport height */
+}
+
+/* General Page Styling */
+body {
+    background-color: #2e2e2e; /* Set the background to dark grey */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.header {
+    width: 100%;
+    color:white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin: 5px 0 20px;
+}
+
+.headerBtn {
+    margin-bottom: 50px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.headerBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.ReadPosts {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #3a3a3a;
+  color:white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+button.deleteButton {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px; /* Add space to the left of the Delete button */
+}
+
+button.deleteButton:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+}
+
+button.submitButton {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.submitButton:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+label {
+    font-size: 1.2rem;
+    display: block;
+}
+
+input[type="text"],
+textarea {
+    width: 90%;
+    padding: 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+}

@@ -1,0 +1,64 @@
+/* filepath: c:\Users\anaa1\OneDrive - Florida Atlantic University\Documents\GitHub\final-project-anikirk\web102_unit7lab\client\src\pages\CreatePost.css */
+.create-post-container {
+    width: 100%;
+    max-width: 600px; /* Set the maximum width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: #222; /* Dark background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Add spacing between form elements */
+}
+
+label {
+    font-size: 16px;
+    color: white;
+}
+
+input,
+textarea {
+    width: 95%; /* Make inputs and textareas take full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+textarea {
+    resize: none; /* Disable resizing for textareas */
+    height: 100px; /* Set a fixed height for textareas */
+}
+
+.button-group {
+    display: flex;
+    gap: 10px; /* Add spacing between buttons */
+}
+
+button.submitButton,
+button.deleteButton {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px; /* Consistent padding */
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px; /* Consistent font size */
+    max-width: 100px;
+    height: 40px; /* Set a fixed height for both buttons */
+    display: flex;
+    align-items: center; /* Vertically center text */
+    justify-content: center; /* Horizontally center text */
+}
+
+button.submitButton:hover,
+button.deleteButton:hover {
+    background-color: #000000;
+    color: white; /* Optional: Change text color on hover */
+}

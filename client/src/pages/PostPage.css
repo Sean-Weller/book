@@ -1,0 +1,107 @@
+.PostPage {
+    background-color: #2e2e2e; /* Dark background for the post page */
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto; /* Center the post page horizontally */
+    max-width: 800px; /* Limit the width of the post page */
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: left; /* Align title to the left */
+}
+
+p {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: left; /* Align description to the left */
+}
+
+.post-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #373737;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add spacing between input and button */
+    margin-top: 20px;
+    text-align: left; /* Align the form to the left */
+    width: 95%; /* Make the form take the full width */
+}
+
+input {
+    width: 100%; /* Ensure the input takes up the full width of the container */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+button[type="submit"] {
+    margin-top: 10px; /* Add spacing between the input field and the submit button */
+    background-color: #373737;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    height: 40px; /* Ensure consistent height */
+    display: flex;
+    align-items: center; /* Vertically center text */
+    justify-content: center; /* Horizontally center text */
+    max-width: 95%;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+button.action-button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button.action-button:hover {
+    background-color: #666;
+}
+
+.comments-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.comments-list li {
+    background-color: #222;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: left; /* Align comments to the left */
+}
